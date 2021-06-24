@@ -1,14 +1,5 @@
 VERS_1.0 {
     local:
-        _Znwm;                 # operator new(unsigned long);
-        _ZnwmRKSt9nothrow_t;   # operator new(unsigned long, std::nothrow_t const&);
-        _ZdlPv;                # operator delete(void*);
-        _ZdlPvRKSt9nothrow_t;  # operator delete(void*, std::nothrow_t const&);
-        _Znam;                 # operator new[](unsigned long);
-        _ZnamRKSt9nothrow_t;   # operator new[](unsigned long, std::nothrow_t const&);
-        _ZdaPv;                # operator delete[](void*);
-        _ZdaPvRKSt9nothrow_t;  # operator delete[](void*, std::nothrow_t const&);
-
         extern "C++" {
 #
 # Hide everything in std namespace (C++ STL symbols):
